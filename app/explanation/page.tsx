@@ -43,7 +43,7 @@ const page = () => {
             Team →
           </CardItem>
           <Link
-            href={"https://www.youtube.com/watch?v=-muNwJdUUJ4"}
+            href={"https://github.com/Anish202020/callify-meet"}
             target="__blank"
             className="px-4 py-2 rounded-xl flex gap-1 justify-center bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
