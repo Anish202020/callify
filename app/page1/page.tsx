@@ -2,6 +2,7 @@
 import React from 'react'
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
 const page = () => {
   return (
     <div>
@@ -35,18 +36,19 @@ const page = () => {
           <CardItem
             translateZ={20}
             as={Link}
-            href="https://callify.vercel.app"
+            href="https://callify-meet.vercel.app/team"
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
-            Home →
+            Team →
           </CardItem>
           <Link
             href={"https://www.youtube.com/watch?v=-muNwJdUUJ4"}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            target="__blank"
+            className="px-4 py-2 rounded-xl flex gap-1 justify-center bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
           >
-            Video
+            <FaGithub className='size-4' />
+            <div className='top-6'>Github</div>
           </Link>
         </div>
       </CardBody>
